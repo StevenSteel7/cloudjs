@@ -24,7 +24,7 @@ const Support = () => {
             </div>
 
 
-            <div className= 'grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
+            <div className= 'grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
 
                 
                 <div className = 'bg-white rounded-xl shadow-2xl'>
@@ -41,9 +41,39 @@ const Support = () => {
                     
                 </div>
 
-            
+                <div className = 'bg-white rounded-xl shadow-2xl'>
+                    <div className = 'p-8'>
+                        <ChipIcon className = 'w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem] shadow-2xl'/>
+                        <h3 className = 'font-bold text-2xl my-2'>Technical Support</h3>
+                        <p className = 'text-gray-600 text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit repellendus dolorem accusamus repudiandae porro animi, et blanditiis id consequuntur amet?</p>
+                    </div>
+
+                    <div>
+                        <p className = 'ml-7 mb-4'>Contact US <ArrowSmRightIcon className = 'w-6 ml-2 text-indigo-600'/> </p>
+                    </div>
+
+                    
+                </div>
+
+                <div className = 'bg-white rounded-xl shadow-2xl'>
+                    <div className = 'p-8'>
+                        <SupportIcon className = 'w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem] shadow-2xl'/>
+                        <h3 className = 'font-bold text-2xl my-2'>Sales</h3>
+                        <p className = 'text-gray-600 text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit repellendus dolorem accusamus repudiandae porro animi, et blanditiis id consequuntur amet?</p>
+                    </div>
+
+                    <div>
+                        <p className = 'ml-7 mb-4'>Contact US <ArrowSmRightIcon className = 'w-6 ml-2 text-indigo-600'/> </p>
+                    </div>
+
+                    
+                </div>
+
             </div>
         
+        
+
+
         </div>        
 
     </div>
