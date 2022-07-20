@@ -8,14 +8,14 @@ import supportImg from '../assets/support.jpg'
 
 const Support = () => {
   return (
-    <div className= 'w-full h-screen mt-24'>
-        
+    <div name = 'support' className= 'w-full mt-24'>
+
         <div className= 'w-full h-[700px] bg-gray-900/70 absolute'>
              <img className = 'w-full h-full object-cover mix-blend-overlay' src={supportImg} alt="/" />
         </div>
 
 
-        <div className= 'max-w-[1240] h-screen mt-24 text-white relative'>
+        <div className= 'max-w-[1240px]  mx-auto text-white relative'>
            
             <div>
                 <h2 className= 'text-3xl pt-8 text-slate-300 uppercase text-center'>Support</h2>
@@ -30,7 +30,7 @@ const Support = () => {
                 <div className = 'bg-white rounded-xl shadow-2xl'>
                     <div className = 'p-8'>
                         <PhoneIcon className = 'w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem] shadow-2xl'/>
-                        <h3 className = 'font-bold text-2xl my-2'>Sales</h3>
+                        <h3 className = 'font-bold text-2xl my-2'>Contact us</h3>
                         <p className = 'text-gray-600 text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit repellendus dolorem accusamus repudiandae porro animi, et blanditiis id consequuntur amet?</p>
                     </div>
 

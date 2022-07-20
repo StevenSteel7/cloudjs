@@ -12,7 +12,7 @@ import { PaperAirplaneIcon } from '@heroicons/react/outline'
 
 const Hero = () => {
   return (
-<div className = 'w-full h-screen bg-zinc-200 flex flex-col justify-between'> 
+<div name = 'home' className = 'w-full h-screen bg-zinc-200 flex flex-col justify-between '> 
                 {/* below we are using grids and its use to make grid in a wesite..
                  or arrange items both verical and horizontal.. */}
         <div className= 'grid md:grid-cols-2 max-w-[1240px] m-auto'> 
