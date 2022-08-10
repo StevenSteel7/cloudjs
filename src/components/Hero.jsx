@@ -14,7 +14,7 @@ const Hero = () => {
   return (
 <div name = 'home' className = 'w-full h-screen bg-zinc-200 flex flex-col justify-between '> 
                 {/* below we are using grids and its use to make grid in a wesite..
-                 or arrange items both verical and horizontal.. */}
+                 or arrange items both verical and horizontal.. */} 
         <div className= 'grid md:grid-cols-2 max-w-[1240px] m-auto'> 
             
             <div className= 'flex flex-col justify-center md:items-start w-full px-2 py-8'>
@@ -26,7 +26,7 @@ const Hero = () => {
             
             <div className = 'my-3'>
                 <img className = 'w-full ' src={bgimg} alt="/"  />
-            </div>
+            </div> 
             
             <div className= ' md:absolute flex flex-col  py-8 md:min-w-[760px] bottom-[5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl '>
                 <p className = 'font-bold'>Data Services
@@ -40,7 +40,7 @@ const Hero = () => {
                     </div>
             </div>
 
-          
+
 
         </div>
       

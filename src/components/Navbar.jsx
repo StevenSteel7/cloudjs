@@ -49,7 +49,7 @@ const Navbar = () => {
             </div>
 
             <div className = 'md:hidden mr-4' onClick = {handleClick}>
-                {/*   hidden the hamburger icon if less than 768 pixel
+                {/*   hidden the hamburger icon if more than 768 pixel
                     And we will also use ternary operator to handle the click event */}
                 {!nav ? <MenuIcon className='w-5'/> :<XIcon className= 'w-5'/>}
                 

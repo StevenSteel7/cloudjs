@@ -50,7 +50,7 @@ const AllinOne = () => {
 
                         <div>
                         <h3 className='text-lg font-bold'>Easy to Use!</h3>
-                        <p className='text-lg pt-2 pb-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, veritatis!</p>
+                        <p className='text-lg pt-2 pb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, voluptates.     </p>
                         </div>
 
                         
